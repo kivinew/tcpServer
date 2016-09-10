@@ -33,7 +33,7 @@ namespace tcpClient
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Exception: "+ex/*.Message*/);
+                Console.WriteLine("No connection:\n"+ex/*.Message*/);
             }
         }
     }
